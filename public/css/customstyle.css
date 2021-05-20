@@ -1,0 +1,340 @@
+body{
+    float: left;
+    width: 100%;
+}
+.main-menu .navbar-header{
+    height: 7rem;
+}
+.main-menu .navbar-header .navbar-brand .brand-logo {
+    height: 45px;
+    width: 45px;
+}
+.content-header,
+.customizer-toggle{
+    display: none !important;
+}
+.brand-logo{
+    display: flex;
+    align-items: center;
+}
+.brand-logo p {
+    float: left;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 19px;
+    color: #4e8bfe;
+    font-weight: 500;
+}
+.brand-logo p span{
+    color: #ff9f43;
+}
+.vertical-menu-modern .toggle-icon {
+    margin-right: 0.425rem;
+    margin-top: 11px;
+}
+.dt-checkboxes-cell{
+    display: none !important;
+}
+table.data-list-view.dataTable, table.data-thumb-view.dataTable {
+    border-spacing: 0 0.1rem;
+    padding: 0 0.7rem;
+}
+
+table.data-list-view.dataTable {
+    border-spacing: 0 0.1rem;
+    padding: 0 0.7rem;
+}
+
+table.data-list-view.dataTable tbody tr:hover{
+    transform: translateY(-0px);
+    transition: all 0.3s ease;
+}
+.noaddbtnintable .btn.btn-outline-primary{
+    display: none;
+}
+table.dataTable tbody tr.selected{
+    background-color: #fff !important;
+    box-shadow: unset !important;
+    color: #626262 !important;
+}
+table.data-list-view.dataTable tbody tr, table.data-thumb-view.dataTable tbody tr{
+    box-shadow: unset;
+}
+
+table.data-list-view.dataTable tbody tr:hover, table.data-thumb-view.dataTable tbody tr:hover{
+    background: #fcfcfc;
+}
+
+.data-list-view-header .table-responsive .dataTables_wrapper .dataTables_paginate ul.pagination{
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+/* .bloodgroup-mask .dropdown-menu.show{
+    top: 65px !important;
+} */
+.table-responsive{
+    overflow-x: inherit;
+}
+
+.citysearchbar{
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.searchcityoptions-wrapper{
+    height: 200px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+.menu-collapsed .logoname{
+    display: none;
+}
+
+.menu-expanded .expanded .logoname{
+    display: block;
+}
+
+.expanded .logoname{
+    display: block;
+}
+
+.lablelikedislike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.likesection {
+    float: left;
+    width: 40%;
+}
+.likesection span{
+    position: relative;
+    top: 5px;
+}
+.dislikesection {
+    float: left;
+    width: 40%;
+}
+
+
+
+
+/* .contribution{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.contribution-plaz {
+    float: left;
+    width: 50%;
+}
+.contribution-plaz i.icon-shield{
+    color: #e7b506;
+}
+.contribution-oxiz {
+    float: left;
+    width: 50%;
+}
+.contribution-oxiz i.icon-wind{
+    color: #4e8bfe;
+} */
+
+.contribution-plaz i.icon-shield{
+    color: #e7b506;
+}
+.contribution-oxiz i.icon-wind{
+    color: #4e8bfe;
+}
+
+table{
+    position: relative;
+}
+.custom-tfootable{
+    position: absolute;
+    top: -6rem;
+}
+
+
+.custom-tfootable.filterplasma tr th:first-child{
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:nth-child(2){
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:nth-child(3){
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:nth-child(4){
+    padding-left: 0px;
+}
+.custom-tfootable.filterplasma tr th:nth-child(5){
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:nth-child(7){
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:nth-child(8){
+    display: none;
+}
+.custom-tfootable.filterplasma tr th:last-child{
+    display: none;
+}
+
+
+
+.custom-tfootable.filteroxyen tr th:first-child{
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(2){
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(3){
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(4){
+    padding-left: 0px;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(5){
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(7){
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:nth-child(8){
+    display: none;
+}
+.custom-tfootable.filteroxyen tr th:last-child{
+    display: none;
+}
+
+.tabletopaddbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tabletopaddbtn .btn{
+    margin-left: 0.5rem;
+}
+
+/* .modal:nth-of-type(even) {
+    z-index: 1062 !important;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1061 !important;
+} */
+
+#myInnerModal1 .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}
+.loginimage-section{
+    width: 190px;
+    margin: 0px 5rem;
+}
+.bg-authentication .login-footer {
+    padding: 0rem 1.5rem 1.5rem;
+}
+
+.btn-primary{
+    background: #4E8BFE !important;
+}
+.btn-primary:hover {
+    border-color: #4E8BFE !important;
+    color: #fff !important;
+    box-shadow: 0 8px 25px -8px #6e9ffc;
+}
+
+.form-control:focus {
+    color: #4e5154;
+    background-color: #fff;
+    border-color: #4E8BFE !important;
+    outline: 0;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%);
+}
+.form-label-group > input:focus:not(:placeholder-shown) ~ label, .form-label-group > input:not(:active):not(:placeholder-shown) ~ label, .form-label-group textarea:focus:not(:placeholder-shown) ~ label, .form-label-group textarea:not(:active):not(:placeholder-shown) ~ label {
+    color: #4E8BFE !important;
+    transition: all 0.25s ease-in-out;
+    opacity: 1;
+}
+.form-control:focus ~ .form-control-position i {
+    color: #4E8BFE !important;
+}
+.formlogin .form-label-group .form-control-position i{
+    top: 10px;
+}
+
+.formlogin .card-link{
+    color: #f00 !important; 
+}
+
+.forgotpass-img{
+    width: 180px;
+}
+.backtologin-btn {
+    border: 1px solid #4E8BFE !important;
+    background-color: transparent;
+    color: #4E8BFE !important;
+}
+
+.recentjoined-table tbody tr td{
+    padding: 0.7rem 0.75rem !important;
+    font-size: 14px;
+}
+
+.main-menu.menu-light .navigation > li ul li > a {
+    padding: 10px 10px 10px 10px;
+}
+body.vertical-layout.vertical-menu-modern .main-menu .navigation .menu-content > li > a > i {
+    margin-right: 0.30rem;
+    font-size: 0.7rem;
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu .navigation > li > a i{
+    margin-right: 0.40rem;
+    float: left;
+}
+body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .navigation > li > a > i {
+    margin-right: 0.40rem;
+    float: left;
+}
+
+.data-list-view-header .table-responsive .top .dataTables_filter .form-control, .data-thumb-view-header .table-responsive .top .dataTables_filter .form-control{
+    font-size: 14px;
+}
+
+table tbody tr td i{
+    font-size: 17px; 
+    color:#000;
+    margin: 0px 0.3rem;
+}
+.tooltiptable{
+    float: left;
+}
+select.dropdown-toggle{
+    border:1px solid #dae1e7;
+}
+
+.static-reds{
+    color: #dd0228;
+}
+.static-blues{
+    color: #293ade;
+}
+.static-aquas{
+    color: #0dbac9;
+}
+
+
+
+.static-blue{
+    background: rgba(59, 77, 253, 0.5) !important;
+}
+.static-red{
+    background: rgba(251, 133, 155, 0.8) !important;
+}
+.static-aqua{
+    background: rgba(124, 238, 248, 0.8) !important;
+}
