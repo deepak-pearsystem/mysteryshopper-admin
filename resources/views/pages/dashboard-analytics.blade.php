@@ -145,7 +145,7 @@
                 <div class="row">
                   <div class="col-md-9 col-12">
                     <div class="card-header">
-                      <h4 class="card-title">Campaign Trend</h4>
+                      <h4 class="card-title">Campaigns</h4>
                     </div>
                   </div>
                   {{-- <div class="col-md-3 col-12">

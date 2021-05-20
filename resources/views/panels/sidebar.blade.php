@@ -174,12 +174,6 @@ $configData = Helper::applClasses();
               <span class="menu-title" data-i18n="">Payments Approval</span>
             </a>
           </li>
-          <li class="">
-            <a href="">
-              <i class="feather icon-circle"></i>
-              <span class="menu-title" data-i18n="">Access Manager</span>
-            </a>
-          </li>
         </ul>              
       </li>
 
